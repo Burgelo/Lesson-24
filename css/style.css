@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(44, 43, 43);
+	font-size: 18px;
+	background-color: aquamarine;
+}
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+*[class*="__container"]{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*======================================================*/
+
+.page__container {
+	padding: 50px 50px;
+}
+.homework__title {
+	font-size: 40px;
+	font-weight: 700;
+	color: blue;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.homework__text {
+	font-size: 30px;
+	color: rgb(18, 18, 116);
+   margin-bottom: 50px;
+	text-align: center;
+}
+.homework__item {
+	margin-bottom: 50px;
+	background-color: #fff;
+	border: 2px solid blue;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px 2px #8ecae6;
+	padding: 20px;
+}
+.item-homework__title {
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+   margin-bottom: 50px;
+	text-align: center;
+}
+.item__link:not(:last-child) {
+	margin-bottom: 20px;
+}
+.item__sublink {
+	margin-bottom: 20px;
+}
+.link__value {
+	display: inline-block;
+	font-weight: 700;
+	margin-right: 20px;
+}
+.link__text {
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+}
+.link__text-red {
+	display: inline-block;
+	color: red;
+	font-size: 20px;
+}
+

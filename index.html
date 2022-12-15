@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut" href="favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 24</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header></header>
+		<main class="page__container">
+			<section class="homework">
+				<h1 class="homework__title">Основи JavaScript. Частина 3 з 4</h1>
+				<article class="homework__item item">
+				   <h2 class="item-homework__title">Функции в JAVASCRIPT. Стрелочные 
+						функции, рекурсия, планирование: setTimeout и setInterval.
+					</h2>
+				   <ul class="item__list">
+					   <li class="item__link">
+						   <p class="link__value">варіант №1</p>
+						   <p class="link__text-red">Першим попадає в консоль Коля, так як 
+							виклик напряму  в консоль. У Василя setTimeout (0).
+						   </p>
+					   </li>	
+					   <li class="item__link">
+						   <p class="link__value">варіант №2</p>
+						   <p class="link__text">Вірно. Виклик функції можна робити
+						   як до, так і після об'явлення функції
+					      </p>
+					   </li>
+					   <li class="item__link">
+						   <p class="link__value">варіант №3</p>
+						   <p class="link__text-red">Не вірно. В данному випадку це 
+							функціональний вираз і виклик функції  повинен бути після
+							об'яви функції. В кінці, після } повинні бути ;.
+						   </p>
+							<p>Правильний запис <br>
+								let showMessageOne = function () { <br>
+									console.log('Повідомлення'); <br>
+								}; <br>
+								showMessageOne();
+							</p>
+					   </li>
+					   <li class="item__link">
+						   <p class="link__value">варіант №4</p><br>
+						   <p class="link__text"><br> let showMessageThree; <br>
+								if (2 > 1) {<br>
+										showMessageThree = function() {<br>
+											console.log('Повідомлення');<br>
+										};	<br>	
+								};<br>
+								showMessageThree(); 
+							</p>
+					   </li>
+					</ul>
+			   </article>
+				<article class="homework__item item">
+				   <h2 class="item-homework__title">Массивы в JAVASCRIPT. Методы массивов. Редактирование, 
+					поиск, сортировка.
+					</h2>
+				   <ul class="item__list">
+					   <li class="item__link">
+						   <p class="link__value">варіант №1</p>
+						   <p class="link__text">Отримаємо 4, тому що push додає єлемент в масив.
+						   </p>
+					   </li>	
+					   <li class="item__link">
+						   <p class="link__value">варіант №5</p>
+						   <p class="link__text">На початку роботи метода previousValue = 9,
+							тому що не вказано початкове значення. 
+					      </p>
+					   </li>					   
+					</ul>
+			   </article>
+				<article class="homework__item item">
+				   <h2 class="item-homework__title">JavaScript Document object model 
+					(DOM) за час. Изменение HTML CSS. Атрибуты и свойства. Окружение.
+					</h2>
+				   <ul class="item__list">
+					   <li class="item__link">
+						   <p class="link__value">варіант №1</p>
+							<div data-sai-hi="yes" class="art">Привіт!</div>
+						</li>	
+					   <li class="item__link">
+						   <p class="link__value">варіант №2</p>
+						   <ul class="item__sublink">
+								<li>Корчи</li>
+								<li>Йончи</li>
+							</ul>
+					   </li>
+						<li class="item__link">
+						   <p class="link__value">варіант №4</p>
+							<div class="like"></div>
+							<div class="subscribe"></div>
+                     <div class="like subscribe"></div>
+							<p class="link__text">Елемент  буде останнім "li", але буде знаходитися всередині "ul"</p>
+						</li>					   
+					</ul>
+					
+			   </article>
+				<article class="homework__item item">
+				   <h2 class="item-homework__title">JavaScript размеры прокрутка и координаты элементов на странице и окна браузера.
+					</h2>
+				   <ul class="item__list">
+					   <li class="item__link">
+						   <p class="link__value">варіант №1</p>
+						   <p class="link__text">Ширина прокрутки = 23px.
+						   </p>
+					   </li>	
+					</ul>
+					<p class="link__text"> Завдання 2, 3, 4 в JS</p>
+			   </article>
+			</section>
+			
+		</main>
+		<footer></footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
